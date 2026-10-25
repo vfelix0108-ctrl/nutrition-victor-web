@@ -103,7 +103,7 @@
 
           if (error) {
             status.textContent =
-              "No se pudo iniciar sesión. Revisa el correo y la contraseña.";
+              "Error de Supabase: " + error.message;
             return;
           }
 
